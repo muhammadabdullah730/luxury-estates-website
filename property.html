@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxury Villa in Clifton | Luxury Estates</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  
+  <!-- Structured data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SingleFamilyResidence",
+      "name": "Luxury Villa in Clifton",
+      "description": "This stunning luxury villa in the heart of Clifton offers breathtaking sea views and unparalleled amenities.",
+      "numberOfRooms": 5,
+      "numberOfBathroomsTotal": 6,
+      "floorSize": "6500 sqft",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "12 Sea View Road",
+        "addressLocality": "Karachi",
+        "addressRegion": "Sindh",
+        "postalCode": "75600",
+        "addressCountry": "PK"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 24.8099,
+        "longitude": 67.0299
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "1200000",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://luxuryestates.com/property.html?id=prop-001"
+      }
+    }
+  </script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">
+        <i class="fas fa-building logo-icon"></i>
+        <span>Luxury Estates</span>
+      </a>
+      
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="listings.html" class="nav-link active">Properties</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <div class="header-actions">
+        <div class="theme-toggle">
+          <span class="toggle-label">
+            <i class="fas fa-sun"></i>
+          </span>
+          <label class="toggle-switch">
+            <input type="checkbox">
+            <span class="toggle-slider"></span>
+          </label>
+          <span class="toggle-label">
+            <i class="fas fa-moon"></i>
+          </span>
+        </div>
+        
+        <button class="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Property Header -->
+  <section class="property-header">
+    <!-- Content will be loaded by JavaScript -->
+  </section>
+
+  <!-- Main Content -->
+  <main class="main">
+    <div class="container">
+      <div class="property-content">
+        <!-- Main Property Content -->
+        <div class="property-main">
+          <!-- Image Gallery -->
+          <div class="property-section">
+            <div class="gallery-main">
+              <!-- Main image will be loaded here -->
+            </div>
+            <div class="gallery-thumbs">
+              <!-- Thumbnails will be loaded here -->
+            </div>
+          </div>
+          
+          <!-- Description -->
+          <div class="property-section property-description">
+            <!-- Description will be loaded here -->
+          </div>
+          
+          <!-- Amenities -->
+          <div class="property-section">
+            <div class="property-amenities">
+              <!-- Amenities will be loaded here -->
+            </div>
+          </div>
+          
+          <!-- Map -->
+          <div class="property-section">
+            <h2 class="property-section-title">Location</h2>
+            <div class="map-container">
+              <!-- Map will be loaded here -->
+            </div>
+          </div>
+          
+          <!-- Contact Form -->
+          <div class="property-section">
+            <h2 class="property-section-title">Contact Agent</h2>
+            <form id="property-contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="contact-name" class="form-label">Your Name</label>
+                <input type="text" id="contact-name" name="name" class="form-control" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="contact-email" class="form-label">Email Address</label>
+                <input type="email" id="contact-email" name="email" class="form-control" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="contact-phone" class="form-label">Phone Number</label>
+                <input type="tel" id="contact-phone" name="phone" class="form-control">
+              </div>
+              
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Message</label>
+                <textarea id="contact-message" name="message" class="form-control" rows="5" required></textarea>
+              </div>
+              
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        
+        <!-- Sidebar -->
+        <aside class="property-sidebar sticky-sidebar">
+          <!-- Agent Info -->
+          <div class="property-agent">
+            <!-- Agent info will be loaded here -->
+          </div>
+          
+          <!-- Schedule Visit -->
+          <div class="property-contact">
+            <h3 class="property-contact-title">Schedule a Visit</h3>
+            <p>Arrange a private viewing of this property with one of our agents.</p>
+            <button class="btn btn-primary btn-block" data-modal="schedule-visit-modal">
+              <i class="fas fa-calendar-alt"></i> Schedule Visit
+            </button>
+          </div>
+          
+          <!-- Print/Share -->
+          <div class="property-actions">
+            <button class="btn btn-outline btn-block">
+              <i class="fas fa-print"></i> Print Details
+            </button>
+            <button class="btn btn-outline btn-block">
+              <i class="fas fa-share-alt"></i> Share Property
+            </button>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <!-- Schedule Visit Modal -->
+  <div class="modal" id="schedule-visit-modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title">Schedule a Property Visit</h3>
+        <button class="modal-close">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form id="schedule-visit-form">
+          <div class="form-group">
+            <label for="visit-name" class="form-label">Your Name</label>
+            <input type="text" id="visit-name" name="name" class="form-control" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="visit-email" class="form-label">Email Address</label>
+            <input type="email" id="visit-email" name="email" class="form-control" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="visit-phone" class="form-label">Phone Number</label>
+            <input type="tel" id="visit-phone" name="phone" class="form-control" required>
+          </div>
+          
+          <div class="grid-2">
+            <div class="form-group">
+              <label for="visit-date" class="form-label">Preferred Date</label>
+              <input type="date" id="visit-date" name="date" class="form-control" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="visit-time" class="form-label">Preferred Time</label>
+              <input type="time" id="visit-time" name="time" class="form-control" required>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="visit-notes" class="form-label">Additional Notes</label>
+            <textarea id="visit-notes" name="notes" class="form-control" rows="3"></textarea>
+          </div>
+          
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-block">Schedule Visit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="footer-logo">
+            <i class="fas fa-building"></i> Luxury Estates
+          </a>
+          <p>Premium real estate services for high-end properties in Karachi and surrounding areas.</p>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-col">
+          <h3 class="footer-title">Quick Links</h3>
+          <ul class="footer-list">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="listings.html" class="footer-link">Properties</a></li>
+            <li><a href="about.html" class="footer-link">About Us</a></li>
+            <li><a href="contact.html" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3 class="footer-title">Property Types</h3>
+          <ul class="footer-list">
+            <li><a href="listings.html?type=Villa" class="footer-link">Villas</a></li>
+            <li><a href="listings.html?type=Apartment" class="footer-link">Apartments</a></li>
+            <li><a href="listings.html?type=Penthouse" class="footer-link">Penthouses</a></li>
+            <li><a href="listings.html?type=Townhouse" class="footer-link">Townhouses</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3 class="footer-title">Contact Info</h3>
+          <ul class="footer-list">
+            <li><i class="fas fa-map-marker-alt"></i> 12 Sea View Road, Clifton, Karachi</li>
+            <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+            <li><i class="fas fa-envelope"></i> info@luxuryestates.com</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="copyright">
+        &copy; 2023 Luxury Estates. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/detail.js"></script>
+</body>
+</html>

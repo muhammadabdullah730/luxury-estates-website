@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Luxury Estates - Premium real estate services for high-end properties in Karachi">
+  <meta name="keywords" content="real estate, luxury homes, property, Karachi, villas, apartments">
+  <title>Luxury Estates | Premium Real Estate Services</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  
+  <!-- Structured data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "RealEstateAgent",
+      "name": "Luxury Estates",
+      "image": "assets/images/logo.png",
+      "@id": "",
+      "url": "https://luxuryestates.com",
+      "telephone": "+1 (555) 123-4567",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "12 Sea View Road",
+        "addressLocality": "Karachi",
+        "addressRegion": "Sindh",
+        "postalCode": "75600",
+        "addressCountry": "PK"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 24.8123,
+        "longitude": 67.0315
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "09:00",
+        "closes": "18:00"
+      }
+    }
+  </script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">
+        <i class="fas fa-building logo-icon"></i>
+        <span>Luxury Estates</span>
+      </a>
+      
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="listings.html" class="nav-link">Properties</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <div class="header-actions">
+        <div class="theme-toggle">
+          <span class="toggle-label">
+            <i class="fas fa-sun"></i>
+          </span>
+          <label class="toggle-switch">
+            <input type="checkbox">
+            <span class="toggle-slider"></span>
+          </label>
+          <span class="toggle-label">
+            <i class="fas fa-moon"></i>
+          </span>
+        </div>
+        
+        <button class="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero home-hero">
+    <img src="assets/images/hero-bg.jpg" alt="Luxury property with pool" class="hero-bg" loading="lazy">
+    
+    <div class="container hero-content">
+      <div class="glass-card">
+        <h1 class="hero-title">Discover Your Dream Home</h1>
+        <p class="hero-subtitle">Explore our curated collection of luxury properties in Karachi's most exclusive neighborhoods</p>
+        
+       
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Properties -->
+  <section class="section home-featured">
+    <div class="container">
+      <div class="home-featured-header">
+        <h2 class="section-title">Featured Properties</h2>
+        <a href="listings.html" class="btn btn-outline">View All Properties</a>
+      </div>
+      
+      <div class="carousel">
+        <div class="carousel-inner">
+          <!-- Featured property 1 -->
+          <div class="carousel-item">
+            <img src="assets/images/prop-001-1.jpg" alt="Luxury Villa in Clifton" class="carousel-img" loading="lazy">
+            <div class="carousel-caption">
+              <h3>Luxury Villa in Clifton</h3>
+              <p>5 Bedrooms | 6 Bathrooms | 6,500 sqft</p>
+              <a href="property.html?id=prop-001" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+          
+          <!-- Featured property 2 -->
+          <div class="carousel-item">
+            <img src="assets/images/prop-002-1.jpg" alt="Modern Apartment in DHA" class="carousel-img" loading="lazy">
+            <div class="carousel-caption">
+              <h3>Modern Apartment in DHA</h3>
+              <p>3 Bedrooms | 3 Bathrooms | 2,200 sqft</p>
+              <a href="property.html?id=prop-002" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+          
+          <!-- Featured property 3 -->
+          <div class="carousel-item">
+            <img src="assets/images/prop-003-1.jpg" alt="Historic Mansion in Saddar" class="carousel-img" loading="lazy">
+            <div class="carousel-caption">
+              <h3>Historic Mansion in Saddar</h3>
+              <p>8 Bedrooms | 7 Bathrooms | 12,000 sqft</p>
+              <a href="property.html?id=prop-003" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="carousel-controls">
+          <button class="carousel-btn carousel-prev">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="carousel-btn carousel-next">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+        
+        <div class="carousel-indicators">
+          <button class="carousel-indicator active"></button>
+          <button class="carousel-indicator"></button>
+          <button class="carousel-indicator"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="section home-stats">
+    <div class="container home-stats-content">
+      <h2 class="section-title text-center">Why Choose Luxury Estates</h2>
+      
+      <div class="stats">
+        <div class="stat-item">
+          <div class="stat-number" data-target="1248">0</div>
+          <div class="stat-label">Properties Sold</div>
+        </div>
+        
+        <div class="stat-item">
+          <div class="stat-number" data-target="86">0</div>
+          <div class="stat-label">Active Listings</div>
+        </div>
+        
+        <div class="stat-item">
+          <div class="stat-number" data-target="932">0</div>
+          <div class="stat-label">Happy Clients</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section home-testimonials">
+    <div class="container">
+      <h2 class="section-title text-center">What Our Clients Say</h2>
+      
+      <div class="grid-3">
+        <!-- Testimonial 1 -->
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <p>Working with Luxury Estates was an exceptional experience. They understood exactly what we were looking for and found us our dream home within weeks.</p>
+          </div>
+          <div class="testimonial-author">
+            <img src="assets/images/client-1.jpg" alt="Amina Khan" class="testimonial-author-img">
+            <div>
+              <h4 class="testimonial-author-name">Amina Khan</h4>
+              <p class="testimonial-author-title">Homeowner</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Testimonial 2 -->
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <p>As an international investor, I needed an agency I could trust. Their market knowledge and attention to detail made the entire process seamless.</p>
+          </div>
+          <div class="testimonial-author">
+            <img src="assets/images/client-2.jpg" alt="James Wilson" class="testimonial-author-img">
+            <div>
+              <h4 class="testimonial-author-name">James Wilson</h4>
+              <p class="testimonial-author-title">Investor</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Testimonial 3 -->
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <p>The team went above and beyond to sell our family home at the best possible price. Their marketing strategy and negotiation skills were impressive.</p>
+          </div>
+          <div class="testimonial-author">
+            <img src="assets/images/client-3.jpg" alt="Fatima Ahmed" class="testimonial-author-img">
+            <div>
+              <h4 class="testimonial-author-name">Fatima Ahmed</h4>
+              <p class="testimonial-author-title">Seller</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="section bg-accent text-center">
+    <div class="container">
+      <h2 class="section-title">Ready to Find Your Dream Home?</h2>
+      <p class="section-subtitle">Our team of experts is here to guide you through every step of the process.</p>
+      <a href="contact.html" class="btn btn-dark btn-lg">Contact Us Today</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="footer-logo">
+            <i class="fas fa-building"></i> Luxury Estates
+          </a>
+          <p>Premium real estate services for high-end properties in Karachi and surrounding areas.</p>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-col">
+          <h3 class="footer-title">Quick Links</h3>
+          <ul class="footer-list">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="listings.html" class="footer-link">Properties</a></li>
+            <li><a href="about.html" class="footer-link">About Us</a></li>
+            <li><a href="contact.html" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3 class="footer-title">Property Types</h3>
+          <ul class="footer-list">
+            <li><a href="listings.html?type=Villa" class="footer-link">Villas</a></li>
+            <li><a href="listings.html?type=Apartment" class="footer-link">Apartments</a></li>
+            <li><a href="listings.html?type=Penthouse" class="footer-link">Penthouses</a></li>
+            <li><a href="listings.html?type=Townhouse" class="footer-link">Townhouses</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3 class="footer-title">Contact Info</h3>
+          <ul class="footer-list">
+            <li><i class="fas fa-map-marker-alt"></i> 12 Sea View Road, Clifton, Karachi</li>
+            <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+            <li><i class="fas fa-envelope"></i> info@luxuryestates.com</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="copyright">
+        &copy; 2023 Luxury Estates. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/search.js"></script>
+</body>
+</html>

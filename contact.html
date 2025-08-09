@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Luxury Estates - Karachi's premier luxury real estate agency">
+  <meta name="keywords" content="contact us, real estate agent, property inquiry, Karachi homes">
+  <title>Contact Us | Luxury Estates</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">
+        <i class="fas fa-building logo-icon"></i>
+        <span>Luxury Estates</span>
+      </a>
+      
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="listings.html" class="nav-link">Properties</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="contact.html" class="nav-link active">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <div class="header-actions">
+        <div class="theme-toggle">
+          <span class="toggle-label">
+            <i class="fas fa-sun"></i>
+          </span>
+          <label class="toggle-switch">
+            <input type="checkbox">
+            <span class="toggle-slider"></span>
+          </label>
+          <span class="toggle-label">
+            <i class="fas fa-moon"></i>
+          </span>
+        </div>
+        
+        <button class="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero contact-hero">
+    <img src="assets/images/contact-hero.jpg" alt="Luxury Estates Office" class="hero-bg" loading="lazy">
+    
+    <div class="container hero-content">
+      <h1 class="hero-title">Contact Us</h1>
+      <p class="hero-subtitle">Get in touch with our team of luxury real estate specialists</p>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main class="main">
+    <div class="container">
+      <div class="contact-content">
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <h2 class="section-title">Our Office</h2>
+          <p>Visit our office in Clifton to discuss your real estate needs with one of our agents.</p>
+          
+          <div class="contact-info-item">
+            <i class="fas fa-map-marker-alt contact-info-icon"></i>
+            <div>
+              <h3>Address</h3>
+              <p>12 Sea View Road, Clifton, Karachi</p>
+            </div>
+          </div>
+          
+          <div class="contact-info-item">
+            <i class="fas fa-phone contact-info-icon"></i>
+            <div>
+              <h3>Phone</h3>
+              <p>+1 (555) 123-4567</p>
+            </div>
+          </div>
+          
+          <div class="contact-info-item">
+            <i class="fas fa-envelope contact-info-icon"></i>
+            <div>
+              <h3>Email</h3>
+              <p>info@luxuryestates.com</p>
+            </div>
+          </div>
+          
+          <div class="contact-hours">
+            <h3 class="contact-hours-title">Office Hours</h3>
+            
+            <div class="contact-hours-item">
+              <span>Monday - Friday</span>
+              <span>9:00 AM - 6:00 PM</span>
+            </div>
+            
+            <div class="contact-hours-item">
+              <span>Saturday</span>
+              <span>10:00 AM - 4:00 PM</span>
+            </div>
+            
+            <div class="contact-hours-item">
+              <span>Sunday</span>
+              <span>Closed</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Contact Form -->
+        <div class="contact-form-wrapper">
+          <h2 class="section-title">Send Us a Message</h2>
+          <p>Fill out the form below and we'll get back to you as soon as possible.</p>
+          
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" id="name" name="name" class="form-control" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="phone" class="form-label">Phone Number</label>
+              <input type="tel" id="phone" name="phone" class="form-control">
+            </div>
+            
+            <div class="form-group">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" id="subject" name="subject" class="form-control">
+            </div>
+            
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+            </div>
+            
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      
+      <!-- Map -->
+      <div class="map-container" style="margin-top: 3rem;">
+        <!-- Map will be loaded here -->
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="footer-logo">
+            <i class="fas fa-building"></i> Luxury Estates
+          </a>
+          <p>Premium real estate services for high-end properties in Karachi and surrounding areas.</p>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-col">
+          <h3 class="footer-title">Quick Links</h3>
+          <ul class="footer-list">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="listings.html" class="footer-link">Properties</a></li>
+            <li><a href="about.html" class="footer-link">About Us</a></li>
+            <li><a href="contact.html" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3 class="footer-title">Property Types</h3>
+          <ul class="footer-list">
+            <li><a href="listings.html?type=Villa" class="footer-link">Villas</a></li>
+            <li><a href="listings.html?type=Apartment" class="footer-link">Apartments</a></li>
+            <li><a href="listings.html?type=Penthouse" class="footer-link">Penthouses</a></li>
+            <li><a href="listings.html?type=Townhouse" class="footer-link">Townhouses</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3 class="footer-title">Contact Info</h3>
+          <ul class="footer-list">
+            <li><i class="fas fa-map-marker-alt"></i> 12 Sea View Road, Clifton, Karachi</li>
+            <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+            <li><i class="fas fa-envelope"></i> info@luxuryestates.com</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="copyright">
+        &copy; 2023 Luxury Estates. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>
